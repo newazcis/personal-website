@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.lis{
+    float: right;
+    margin-top: 30px;
+}
+.lis li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+.lis a{
+    text-decoration: none;
+    color: gray;
+    
+    
+}
+.lis a:hover{
+    color: black;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+
+.logo{
+    float: left;
+    color: hotpink;
+    font-size: 20px;
+    margin: 10px;
+}
+.top-banner{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+.row{
+    width: 100%;
+    padding: 50px 0;
+}
+.column{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 35px;  
+    
+}
+#top .column{
+    padding-bottom: 30px;
+}
+#top img{
+    width: 100%;
+    float:right;
+    height: 30%;
+}
+#top .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: hotpink;
+    font-size: 40px;
+}
+.hlw{
+    font-size: 30px;
+    font-weight: lighter;
+}
+#top a{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,hotpink,pink);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+#top p{
+    padding-bottom: 20px;
+}
+
+.mid-banner{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#work{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+#work .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#work .column{
+    width: 300px;
+    margin: 0 10px;
+}
+#work .column img{
+    width: 100%;
+}
+#work h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;   
+}
+#client{
+    text-align: center;
+}
+.bottom-banner{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+#client h2{
+    font-size: 30px;
+}
+#client a{
+        display: inline-block;
+        height: 100px; 
+        background: hotpink;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        padding-bottom: 20px; 
+        line-height: 50px;
+        text-decoration:none;
+        color: white;
+        border-radius: 10px;
+}
+.text{
+    font-size: 12px;
+}
+.hero{
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+    
+}
